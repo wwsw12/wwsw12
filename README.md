@@ -1,0 +1,54 @@
+### Sung-woo Lee · Embedded Firmware 👋
+
+**STM32 펌웨어 — 회로부터 펌웨어까지 직접 확인하는 개발자입니다.** 데이터시트와 보드 회로도로 연결을 확인하고, 오실로스코프·멀티미터·디버거 레지스터 값으로 동작을 검증합니다.
+
+---
+
+## 📌 대표 프로젝트
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[STM32 환경 센서 모니터](https://github.com/wwsw12/stm32-multi-interface-sensor)**
+
+I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) · UART를 한 MCU에 통합한 베어메탈 펌웨어
+
+- 요구사항 검증 **8 / 8 통과** · 고장 주입 시험 **3건**
+- SPI 통신 실패를 오실로스코프와 보드 회로도로 추적해 해결
+
+<a href="https://github.com/wwsw12/stm32-multi-interface-sensor"><img src="https://raw.githubusercontent.com/wwsw12/stm32-multi-interface-sensor/main/docs/images/readme/boot_good_err.gif" width="100%"></a>
+<sub>부팅 자가진단: 정상 → <code>GOOD</code> / BMP280 전원 제거 → <code>ERR</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+**[STM32 BLE 양방향 제어 (R/W 프로토콜)](https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol)**
+
+스마트폰 앱 ↔ HM-10(BLE) ↔ USART1을 STX~ETX 바이너리 패킷으로 연결한 인터럽트 기반 펌웨어
+
+- 센서 **7종 읽기(R)** · 출력 소자 **6종 제어(W)**
+- 보드에서 발견한 패킷 수신 버그 **2건** 수정
+
+<a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/w_packet_log.gif" width="100%"></a>
+<sub>앱 SEND ↔ MCU가 받은 패킷(16진수)</sub>
+
+</td>
+</tr>
+</table>
+
+- **AutoC** — 준비 중
+
+## 🛠 기술 스택
+
+| 분야 | 사용 |
+|---|---|
+| MCU · 펌웨어 | STM32 (F103 · F091 · F429), C, STM32Cube HAL, STM32CubeIDE |
+| 통신 | I2C · SPI · UART · BLE (HM-10) |
+| 주변장치 | ADC + DMA, 타이머 PWM, EXTI 인터럽트 |
+| 측정 · 디버깅 | 오실로스코프, 멀티미터, 디버거 SFR 확인 |
+| 회로 | 데이터시트·보드 회로도 분석, KiCad |
+
+## 📫 연락처
+
+- Email: wwsw12@dankook.ac.kr
