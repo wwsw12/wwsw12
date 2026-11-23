@@ -8,7 +8,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 **[STM32 환경 센서 모니터](https://github.com/wwsw12/stm32-multi-interface-sensor)**
 
@@ -17,11 +17,17 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 - 요구사항 검증 **8 / 8 통과** · 고장 주입 시험 **3건**
 - SPI 통신 실패를 오실로스코프와 보드 회로도로 추적해 해결
 
-<a href="https://github.com/wwsw12/stm32-multi-interface-sensor"><img src="https://raw.githubusercontent.com/wwsw12/stm32-multi-interface-sensor/main/docs/images/readme/boot_good_err.gif" width="100%"></a>
-<sub>부팅 자가진단: 정상 → <code>GOOD</code> / BMP280 전원 제거 → <code>ERR</code></sub>
-
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/stm32-multi-interface-sensor"><img src="images/boot_good.gif" width="100%"></a><br><sub><b>정상</b>: RESET → <code>TEST</code> → <code>GOOD</code> → 기압 <code>1015</code> hPa</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/stm32-multi-interface-sensor"><img src="images/boot_err.gif" width="100%"></a><br><sub><b>실패</b>: BMP280 전원을 뺀 채 RESET → <code>TEST</code> → <code>ERR</code></sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td colspan="2" valign="top">
 
 **[STM32 BLE 양방향 제어 (R/W 프로토콜)](https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol)**
 
@@ -30,10 +36,11 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 - 센서 **7종 읽기(R)** · 출력 소자 **6종 제어(W)**
 - 보드에서 발견한 패킷 수신 버그 **2건** 수정
 
-<a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/w_packet_log.gif" width="100%"></a>
-<sub>앱 SEND ↔ MCU가 받은 패킷(16진수)</sub>
-
 </td>
+</tr>
+<tr>
+<td width="40%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/r_sync.gif" width="100%"></a><br><sub><b>R</b> (보드 → 앱): 보드 센서를 건드리면 앱 값이 따라 바뀜</sub></td>
+<td width="60%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/w_sync.gif" width="100%"></a><br><sub><b>W</b> (앱 → 보드): 앱에서 보낸 값대로 서보·CLCD·RGB LED가 바뀜</sub></td>
 </tr>
 </table>
 
