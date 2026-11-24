@@ -46,7 +46,7 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 
 <table>
 <tr>
-<td colspan="2" valign="top">
+<td colspan="4" valign="top">
 
 **[ROKEY 부트캠프 팀 프로젝트 (로봇 · ROS2)](https://github.com/wwsw12/rokey-bootcamp-projects)**
 
@@ -58,8 +58,10 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/baro.gif" width="100%"></a><br><sub><b>BaRo Coffee</b>: 로봇팔 드립 추출</sub></td>
-<td width="67%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/twocops.gif" width="100%"></a><br><sub><b>Two Cops</b>: 로봇이 도주 차량(RC카) 추적</sub></td>
+<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_twocops.gif" width="100%"></a><br><sub><b>Two Cops</b>: 두 로봇이 RC카 앞뒤를 막음</sub></td>
+<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_baro.gif" width="100%"></a><br><sub><b>BaRo Coffee</b>: 로봇팔 드립 추출</sub></td>
+<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_bbangee.gif" width="100%"></a><br><sub><b>BBangee</b>: 얼굴 · 완장 인식</sub></td>
+<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_twinkle.gif" width="100%"></a><br><sub><b>Twinkle</b>: Isaac Sim 청소 로봇</sub></td>
 </tr>
 </table>
 
