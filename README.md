@@ -39,14 +39,14 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 </td>
 </tr>
 <tr>
-<td width="40%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/r_sync.gif" width="100%"></a><br><sub><b>R</b> (보드 → 앱): 보드 센서를 건드리면 앱 값이 따라 바뀜</sub></td>
-<td width="60%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/w_sync.gif" width="100%"></a><br><sub><b>W</b> (앱 → 보드): 앱에서 보낸 값대로 서보·CLCD·RGB LED가 바뀜</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/r_sync.gif" width="100%"></a><br><sub><b>R</b> (보드 → 앱): 보드 센서를 건드리면 앱 값이 따라 바뀜</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="https://raw.githubusercontent.com/wwsw12/103RB_EVB_BLE_RW_Protocol/main/docs/images/readme/w_sync.gif" width="100%"></a><br><sub><b>W</b> (앱 → 보드): 앱에서 보낸 값대로 서보·CLCD·RGB LED가 바뀜</sub></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td colspan="4" valign="top">
+<td colspan="2" valign="top">
 
 **[ROKEY 부트캠프 팀 프로젝트 (로봇 · ROS2)](https://github.com/wwsw12/rokey-bootcamp-projects)**
 
@@ -58,10 +58,12 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 </td>
 </tr>
 <tr>
-<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_twocops.gif" width="100%"></a><br><sub><b>Two Cops</b>: 두 로봇이 RC카 앞뒤를 막음</sub></td>
-<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_baro.gif" width="100%"></a><br><sub><b>BaRo Coffee</b>: 로봇팔 드립 추출</sub></td>
-<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_bbangee.gif" width="100%"></a><br><sub><b>BBangee</b>: 얼굴 · 완장 인식</sub></td>
-<td width="25%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_twinkle.gif" width="100%"></a><br><sub><b>Twinkle</b>: Isaac Sim 청소 로봇</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_twocops.gif" width="100%"></a><br><sub><b>Two Cops</b>: 두 로봇이 RC카 앞뒤를 막음</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_baro.gif" width="100%"></a><br><sub><b>BaRo Coffee</b>: 로봇팔 드립 추출</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_bbangee.gif" width="100%"></a><br><sub><b>BBangee</b>: 얼굴 · 완장 인식</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/sq_twinkle.gif" width="100%"></a><br><sub><b>Twinkle</b>: Isaac Sim 청소 로봇</sub></td>
 </tr>
 </table>
 
