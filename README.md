@@ -44,6 +44,25 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 </tr>
 </table>
 
+<table>
+<tr>
+<td colspan="2" valign="top">
+
+**[ROKEY 부트캠프 팀 프로젝트 (로봇 · ROS2)](https://github.com/wwsw12/rokey-bootcamp-projects)**
+
+두산로보틱스 ROKEY 부트캠프 5기 팀 프로젝트 **4개** — TurtleBot4 협동 추적, 두산 M0609 핸드드립 · 위병소 경계, Isaac Sim 청소 로봇
+
+- 제 담당: Arduino 로드셀 무게로 추출 단계 전환 · Nav2로 인식 좌표 이동 · 권총 파지용 YOLO 분할 학습
+- 코드는 팀 저장소, 이 저장소에는 프로젝트별 목표 · 구성 · 담당 · 시연 정리
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/baro.gif" width="100%"></a><br><sub><b>BaRo Coffee</b>: 로봇팔 드립 추출</sub></td>
+<td width="67%" valign="top"><a href="https://github.com/wwsw12/rokey-bootcamp-projects"><img src="https://raw.githubusercontent.com/wwsw12/rokey-bootcamp-projects/main/images/twocops.gif" width="100%"></a><br><sub><b>Two Cops</b>: 로봇이 도주 차량(RC카) 추적</sub></td>
+</tr>
+</table>
+
 - **AutoC** — 준비 중
 
 ## 🛠 기술 스택
