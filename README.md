@@ -27,7 +27,7 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 
 <table>
 <tr>
-<td colspan="2" valign="top">
+<td valign="top">
 
 **[STM32 BLE 양방향 제어 (R/W 프로토콜)](https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol)**
 
@@ -39,8 +39,10 @@ I2C(BH1750 조도) · SPI(BMP280 기압·온도) · GPIO 비트뱅잉(TM1637) ·
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="images/ble_r.gif" width="100%"></a><br><sub><b>R</b> (보드 → 앱): 보드 센서를 건드리면 앱 값이 따라 바뀜</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="images/ble_w.gif" width="100%"></a><br><sub><b>W</b> (앱 → 보드): 앱에서 보낸 값대로 서보·CLCD·RGB LED가 바뀜</sub></td>
+<td valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="images/ble_w.gif" width="100%"></a><br><sub><b>W</b> (앱 → 보드): 앱에서 보낸 값대로 서보·CLCD·RGB LED가 바뀜</sub></td>
+</tr>
+<tr>
+<td valign="top"><a href="https://github.com/wwsw12/103RB_EVB_BLE_RW_Protocol"><img src="images/ble_r.gif" width="100%"></a><br><sub><b>R</b> (보드 → 앱): 보드 센서를 건드리면 앱 값이 따라 바뀜</sub></td>
 </tr>
 </table>
 
